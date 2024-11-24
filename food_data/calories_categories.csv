@@ -1,0 +1,576 @@
+Food,Calories,Categories
+Acai,20,Breakfast
+Acerola,1,Breakfast
+Almond Oil,123,Dinner
+Alphabet Soup,62,Lunch
+Amaranth,716,Dinner
+Apple,95,Breakfast
+Applesauce,167,Other
+Apricot,17,Breakfast
+Apricot Kernel Oil,124,Dinner
+Arby Grand Turkey Club,489,Other
+Arby Reuben,641,Dinner
+Arby Roast Beef Classic,360,Other
+Arby Roast Beef Max,360,Other
+Argan Oil,125,Dinner
+Artichoke,60,Breakfast
+Arugula,1,Breakfast
+Asian Pear,75,Breakfast
+Asparagus,20,Breakfast
+Aubergine,115,Other
+Avocado,320,Other
+Avocado Oil,120,Dinner
+Babassu Oil,124,Dinner
+Baby Back Ribs,360,Other
+Bacon and Eggs,539,Dinner
+Baked Beans,244,Other
+Banana,111,Other
+Barley,556,Dinner
+Barley Groats,31,Breakfast
+Baskin-Robbins,170,Other
+BBQ Chicken Pizza,309,Other
+BBQ Pizza,314,Other
+BBQ Rib,142,Other
+BBQ Ribs,360,Other
+Bean Burrito,380,Other
+Bean Stew,335,Other
+Beans,92,Breakfast
+Beef Bouillon,7,Breakfast
+Beef Noodle Soup,83,Lunch
+Beef Pizza,714,Dinner
+Beef Soup,70,Lunch
+Beef Stew,186,Other
+Beetroot,35,Breakfast
+Bell Pepper,25,Breakfast
+Ben and Jerry’s,210,Other
+Bianca Pizza,460,Other
+Big N Tasty,517,Dinner
+Biryani,484,Other
+Black Olives,2,Breakfast
+Black Pudding,101,Other
+Black Rice,323,Other
+Blackberries,62,Breakfast
+Blood Oranges,70,Breakfast
+BLT,593,Dinner
+Blue Crab,100,Other
+Blueberries,84,Breakfast
+Bouillon,39,Breakfast
+Bratwurst,283,Other
+Breadfruit,99,Lunch
+Broccoli,45,Breakfast
+Broccoli Cheese Soup,264,Lunch
+Broccoli Soup,206,Lunch
+Brown Rice,670,Dinner
+Brussels Sprouts,8,Breakfast
+Buckwheat,583,Dinner
+Buckwheat Groats,567,Dinner
+Buffalo Chicken Pizza,600,Dinner
+Burger King Angry Whopper,740,Lunch
+Burger King Double Whopper,894,Lunch
+Burger King Double Whopper with Cheese,994,Lunch
+Burger King Original Chicken Sandwich,659,Lunch
+Burger King Premium Alaskan Fish Sandwich,591,Lunch
+Burger King Triple Whopper,1471,Lunch
+Burger King Whopper,672,Lunch
+Burger King Whopper Jr.,346,Lunch
+Burger King Whopper with Cheese,759,Lunch
+Burrito,326,Lunch
+Butter Chicken,490,Other
+Butter Pecan Ice Cream,280,Other
+Cabbage,227,Other
+Cabbage Soup,69,Lunch
+Calabrese Pizza,254,Other
+California Roll,33,Breakfast
+Calzone,841,Dinner
+Cannelloni,82,Breakfast
+Canola Oil,124,Dinner
+Cantaloupe,23,Breakfast
+Cantaloupe Melon,23,Breakfast
+Capellini,198,Other
+Cappelletti,92,Breakfast
+Capricciosa Pizza,192,Other
+Capsicum,12,Breakfast
+Carrot,30,Breakfast
+Carrot Ginger Soup,95,Lunch
+Carrot Soup,95,Lunch
+Carvel,449,Other
+Casaba Melon,35,Breakfast
+Catfish,130,Other
+Cauliflower,25,Breakfast
+Celery,15,Breakfast
+Cellophane Noodles,491,Other
+Chard,9,Breakfast
+Cheese,360,Other
+Cheese Pizza,168,Other
+Cheese Tortellini,329,Other
+Cheeseburger,410,Lunch
+Cherimoya,176,Other
+Cherries,4,Breakfast
+Cherry Tomato,20,Breakfast
+Chicken Bouillon,10,Breakfast
+Chicken Breast,116,Other
+Chicken Broth,39,Breakfast
+Chicken Caesar Salad,392,Lunch
+Chicken Fajita,326,Other
+Chicken Fried Steak,423,Other
+Chicken Gumbo Soup,56,Lunch
+Chicken Marsala,2209,Dinner
+Chicken McNuggets,48,Breakfast
+Chicken Noodle Soup,62,Lunch
+Chicken Nuggets,59,Breakfast
+Chicken Parmesan,250,Other
+Chicken Pizza,309,Other
+Chicken Pizziola,451,Other
+Chicken Pot Pie,673,Dinner
+Chicken Sandwich,410,Lunch
+Chicken Stock,39,Breakfast
+Chicken Teriyaki Sandwich,367,Lunch
+Chicken Tikka Masala,195,Other
+Chicken Vegetable Soup,77,Lunch
+Chicken Wings,94,Breakfast
+Chicken with Rice Soup,58,Lunch
+Chicory,38,Breakfast
+Chili con Carne,266,Other
+Chimichanga,418,Other
+Chinese Cabbage,134,Other
+Chives,1,Breakfast
+Chocolate Chip Ice Cream,155,Other
+Chocolate Ice Cream,156,Other
+Chop Suey,585,Dinner
+Ciao Bella,240,Other
+Clams,110,Other
+Clementine,35,Breakfast
+Cobb Salad,632,Lunch
+Coconut Oil,120,Dinner
+Cod,90,Breakfast
+Coffee Ice Cream,170,Other
+Cold Stone Creamery,329,Other
+Collard Greens,12,Breakfast
+Collard Greens,13,Breakfast
+Cookie Dough Ice Cream,130,Other
+Corn,562,Dinner
+Corn Dog,438,Other
+Corn Oil,120,Dinner
+Corn Waffles,110,Other
+Corned Beef Hash,349,Other
+Cornmeal,442,Other
+Cornstarch,488,Other
+Cottage Pie,523,Dinner
+Cottonseed Oil,123,Dinner
+Courgette,33,Breakfast
+Couscous,650,Dinner
+Cracker,35,Breakfast
+Cranberries,46,Breakfast
+Cream of Asparagus Soup,85,Lunch
+Cream of Broccoli Soup,140,Lunch
+Cream of Celery Soup,92,Lunch
+Cream of Chicken Soup,117,Lunch
+Cream of Mushroom Soup,97,Lunch
+Cream of Onion Soup,107,Lunch
+Cream of Potato Soup,73,Lunch
+Creamed Spinach,148,Other
+Creamy Chicken Noodle Soup,56,Lunch
+Crunchie McFlurry,318,Other
+Cucumber,16,Breakfast
+Curly Fries,398,Other
+Currants,63,Breakfast
+Custard Apple,136,Other
+Dairy Milk McFlurry,340,Other
+Dal,304,Other
+Dampfnudel,233,Other
+Dates,20,Breakfast
+Deep Dish Pizza,313,Other
+Deviled Eggs,62,Breakfast
+Dim Sum,37,Breakfast
+Dippin Dots,381,Other
+Dominos Philly Cheese Steak Pizza,356,Other
+Dosa,287,Other
+Double Cheeseburger,414,Lunch
+Double Rainbow,185,Other
+Dragon Fruit,120,Other
+Drumsticks,360,Other
+Dumpling Dough,55,Breakfast
+Durian,885,Dinner
+Durum Wheat Semolina,119,Other
+Egg Noodles,146,Other
+Egg Roll,200,Other
+Eggplant,115,Other
+Enchiladas,323,Other
+Endive,87,Breakfast
+Fajita,290,Other
+Falafel,57,Breakfast
+Farfalle,200,Other
+Feijoa,23,Breakfast
+Fennel,73,Breakfast
+Fettuccine,198,Other
+Figs,37,Breakfast
+Filet-o-Fish,400,Other
+Fish and Chips,585,Dinner
+Fish Sandwich,431,Lunch
+Flaxseed,897,Dinner
+Flaxseed Oil,124,Dinner
+Flounder/Sole,100,Other
+Four Cheese Pizza,250,Other
+Freekeh,832,Dinner
+French Fries,222,Other
+French Onion Soup,56,Lunch
+French Vanilla Ice Cream,145,Other
+Fried Rice,662,Dinner
+Fried Shrimp,75,Breakfast
+Friendly’s,140,Other
+Fruit salad,125,Other
+Fusilli,197,Other
+Galia Melon,30,Breakfast
+Garlic,4,Breakfast
+Gherkin,9,Breakfast
+Glass Noodles,108,Other
+Gluten,104,Other
+Goat Cheese Pizza,138,Other
+Golden Mushroom Soup,161,Lunch
+Goulash,1887,Dinner
+Gourd,108,Other
+Grape Seed Oil,124,Dinner
+Grapefruit,52,Breakfast
+Grapes,90,Breakfast
+Green Beans,20,Breakfast
+Green Olives,2,Breakfast
+Green Onion,10,Breakfast
+Green�Cabbage,25,Breakfast
+Greengage,2,Breakfast
+Grilled Cheese Sandwich,392,Lunch
+Grilled Chicken Salad,268,Lunch
+Grilled Pizza,280,Other
+Grissini,20,Breakfast
+Guava,37,Breakfast
+Guava,37,Breakfast
+Haddock,100,Other
+Halibut,120,Other
+Ham and Cheese Sandwich,352,Lunch
+Ham Sandwich,352,Lunch
+Hamburger,279,Lunch
+Hawaiian Pizza,154,Other
+Hazelnut Oil,124,Dinner
+Healthy Choice,80,Breakfast
+Honeydew,45,Breakfast
+Honeydew Melon,50,Breakfast
+Horseradish,7,Breakfast
+Hot Dog,312,Other
+Hot Fudge Sundae,333,Other
+Hummus,435,Other
+Ice Cream Sandwich,265,Lunch
+Ice Cream Sundae,253,Other
+Ice Milk,164,Other
+Iceberg Lettuce,10,Breakfast
+Instant Ramen,371,Other
+Italian BMT,410,Other
+Jackfruit,143,Other
+Jambalaya,250,Other
+Jujube,22,Breakfast
+Kale,33,Breakfast
+Kamut,627,Dinner
+Kebab,774,Dinner
+Kiwi,61,Breakfast
+Kiwifruit,90,Breakfast
+Kohlrabi,108,Other
+Kumara,112,Other
+Kumquat,13,Breakfast
+Lasagna,172,Other
+Lasagne,284,Other
+Lasagne Sheets,57,Breakfast
+Leaf Lettuce,15,Breakfast
+Leek,54,Breakfast
+Lemon,15,Breakfast
+Lentil Soup,139,Lunch
+Lettuce,90,Breakfast
+Lime,20,Breakfast
+Linguine,200,Other
+Linseed Oil,117,Dinner
+Lobster,80,Breakfast
+Lobster Bisque Soup,248,Lunch
+Low Carb Pasta,158,Other
+Lychee,7,Breakfast
+Lychees,7,Breakfast
+Mac and Cheese,699,Dinner
+Macaroni,422,Other
+Macaroni and Cheese,699,Dinner
+Magnolia,166,Other
+Magnum,258,Other
+Magnum Almond,271,Other
+Magnum Double Caramel,305,Other
+Magnum Double Chocolate,327,Other
+Magnum Gold,290,Other
+Magnum White,255,Other
+Mandarin Oranges,47,Breakfast
+Mango,202,Other
+Mangosteen,58,Breakfast
+Manicotti,200,Other
+Maracuya,17,Breakfast
+Maraschino Cherries,8,Breakfast
+Margherita Pizza,173,Other
+Mashed Potatoes,174,Other
+McDonald Big Mac,561,Dinner
+McDonald Cheeseburger,300,Lunch
+McDonald Chicken Nuggets,48,Breakfast
+McDonald Double Cheeseburger,437,Lunch
+McDonald Filet-o-Fish,391,Other
+McDonald McChicken,359,Other
+McDonald McDouble,403,Other
+McDonald McMuffi Egg,290,Other
+McDonald McRib,451,Other
+McDonald Mighty Wings,95,Breakfast
+McFlurry,205,Other
+McFlurry Oreo,340,Other
+McRib,451,Other
+Meat Pie,290,Other
+Meatball Sandwich,481,Lunch
+Meatball Soup,120,Lunch
+Meatloaf,721,Dinner
+Menhaden Oil,128,Dinner
+Millet,484,Other
+Millet Flour,521,Dinner
+Millet Gruel,80,Breakfast
+Minestrone,82,Breakfast
+Mini Milk,30,Breakfast
+Minneola,70,Breakfast
+Mint Chocolate Chip Ice Cream,172,Other
+Mostaccioli,103,Other
+Mozzarella Pizza,154,Other
+Mulberries,60,Breakfast
+Mushroom Pizza,611,Dinner
+Mushroom Soup,85,Lunch
+Mushrooms,20,Breakfast
+Muskmelon,23,Breakfast
+Mustard Greens,15,Breakfast
+Mustard Oil,124,Dinner
+Naan,260,Other
+Nachos with Cheese,575,Dinner
+Napoli Pizza,248,Other
+Nectarine,60,Breakfast
+New York Style Pizza,174,Other
+Noni,15,Breakfast
+Noodle Soup,83,Lunch
+Nori,1,Breakfast
+Oat Bran,231,Other
+Oat Oil,124,Dinner
+Ocean Perch,110,Other
+Okra,4,Breakfast
+Olive Oil,120,Dinner
+Olives,2,Breakfast
+Onion,40,Breakfast
+Onion Rings,25,Breakfast
+Onion Soup,56,Lunch
+Orange,47,Breakfast
+Orange Chicken,420,Other
+Orange Roughy,80,Breakfast
+Orecchiette,207,Other
+Orzo,200,Other
+Oxtail Soup,68,Lunch
+Oysters,100,Other
+Pad Thai,375,Other
+Paella,200,Other
+Palm Kernel Oil,123,Dinner
+Palm Oil,123,Dinner
+Papaya,215,Other
+Paratha,260,Other
+Parsnips,128,Other
+Passion Fruit,17,Breakfast
+Pasta,158,Other
+Pea Soup,190,Lunch
+Peach,60,Breakfast
+Peanut Butter Sandwich,200,Lunch
+Peanut Oil,120,Dinner
+Pear,101,Other
+Pearl Barley,553,Dinner
+Peas,79,Breakfast
+Peking Duck,401,Other
+Penne,197,Other
+Penne Rigate,207,Other
+Pepper,20,Breakfast
+Pepperoni Pizza,181,Other
+Persimmon,32,Breakfast
+Philly Cheese Steak,300,Other
+Physalis,2,Breakfast
+Pierogi,200,Other
+Pineapple,453,Other
+Pink Grapefruit,52,Breakfast
+Pizza,272,Other
+Pizza Dough,130,Other
+Pizza Hut Stuffed Crust Pizza,380,Other
+Pizza Hut Supreme Pizza,305,Other
+Pizza Rolls,35,Breakfast
+Plantain,218,Other
+Plantains,218,Other
+Plum,30,Breakfast
+Plums,70,Breakfast
+Polenta,549,Dinner
+Pollock,90,Breakfast
+Pomegranate,234,Other
+Pomelo,231,Other
+Poppy Seed Oil,124,Dinner
+Pork Chop,295,Other
+Potato,110,Other
+Potato Salad,136,Lunch
+Potato Soup,192,Lunch
+Poutine,511,Dinner
+Prawn Crackers,16,Breakfast
+Pretzel Sticks,46,Breakfast
+Prickly Pear,8,Breakfast
+Pulled Pork Sandwich,551,Lunch
+Pumpkin,51,Breakfast
+Pumpkin Seed Oil,123,Dinner
+Pumpkin Soup,71,Lunch
+Quattro Formaggi Pizza,330,Other
+Quince,52,Breakfast
+Quinoa,626,Dinner
+Radishes,10,Breakfast
+Rainbow Trout,140,Other
+Raisins,434,Other
+Rambutan,7,Breakfast
+Ramen,380,Other
+Raspberries,64,Breakfast
+Ravioli,43,Breakfast
+Red Cabbage,7,Breakfast
+Red Pepper Pizza,165,Other
+Reuben Sandwich,641,Lunch
+Rhubarb,11,Breakfast
+Rice Bran Oil,124,Dinner
+Rigatoni,198,Other
+Roast Beef,23,Breakfast
+Roast Dinner,240,Other
+Rockfish,110,Other
+Rocky Road Ice Cream,290,Other
+Rotini,198,Other
+Rusk,41,Breakfast
+Rutabaga,147,Other
+Rye Bran,422,Other
+Safflower Oil,120,Dinner
+Sago,99,Breakfast
+Salami Pizza,181,Other
+Salmon,130,Other
+Salmon Oil,128,Dinner
+Samosa,107,Other
+Sapodilla,141,Other
+Sauce,50,Breakfast
+Sausage Pizza,177,Other
+Sausage Roll,361,Other
+Sausage Rolls,101,Other
+Savoury Biscuits,139,Other
+Scallops,140,Other
+Schwan,177,Other
+Scotch Broth,80,Breakfast
+Seafood Pizza,186,Other
+Sesame Oil,124,Dinner
+Shallots,18,Breakfast
+Shea Oil,124,Dinner
+Shells,300,Other
+Shepherds Pie,159,Other
+Shirataki Noodles,10,Breakfast
+Shortbread,95,Lunch
+Shrimp,100,Other
+Shrimp Cocktail,130,Other
+Shrimp Pizza,190,Other
+Sicilian Pizza,321,Other
+Sloppy Joe,101,Other
+Sloppy Joes,397,Other
+Smarties McFlurry,400,Other
+Smoked Salmon,44,Breakfast
+Snickers Ice Cream,180,Other
+Soft Serve,191,Other
+Solero,75,Breakfast
+Soursop Fruit,413,Other
+Soy Noodles,121,Other
+Soy Oil,123,Dinner
+Spaetzle,206,Other
+Spaghetti,207,Other
+Spaghetti Bolognese,374,Other
+Spelt,588,Dinner
+Spelt Bran,283,Other
+Spelt Semolina,601,Dinner
+Spicy Italian,480,Other
+Spinach,78,Breakfast
+Spinach Feta Pizza,150,Other
+Spinach Pizza,145,Other
+Spinach Tortellini,320,Other
+Spirelli,206,Other
+Spring Roll,350,Other
+Spring Rolls,350,Other
+Squash,88,Breakfast
+Star Fruit,28,Breakfast
+Starfruit,28,Breakfast
+Strawberries,50,Breakfast
+Strawberry Ice Cream,170,Other
+Strawberry Sundae,281,Other
+Stuffed Crust Pizza,380,Other
+Subway Club Sandwich,312,Lunch
+Succotash,221,Other
+Summer Squash,20,Breakfast
+Sundae,155,Other
+Sunflower Oil,124,Dinner
+Sunflower Seeds,818,Dinner
+Sweet Cherries,100,Other
+Sweet Corn,90,Breakfast
+Sweet Potato,100,Other
+Swordfish,120,Other
+Taco,213,Lunch
+Tagliatelle,207,Other
+Tamarind,5,Breakfast
+Tandoori Chicken,198,Other
+Tangerine,50,Breakfast
+Tarte Flambe,142,Other
+Thai Soup,147,Lunch
+Thin Crust Pizza,157,Other
+Tilapia,110,Other
+Tomato,18,Breakfast
+Tomato Rice Soup,116,Lunch
+Tomato Seed Oil,124,Dinner
+Tomato Soup,74,Lunch
+Tortellini,329,Other
+Tortilla,467,Other
+Tortilla Chips,160,Other
+Tortilla Wrap,171,Lunch
+Tuna,24,Breakfast
+Tuna Pizza,318,Other
+Turkey,29,Breakfast
+Turkey Hill,190,Other
+Turnip Greens,34,Breakfast
+Turnips,34,Breakfast
+Vanilla Cone,230,Other
+Vanilla Ice Cream,145,Other
+Vegetable Beef Soup,76,Lunch
+Vegetable Broth,12,Breakfast
+Vegetable Oil,120,Dinner
+Vegetable Pizza,399,Other
+Vegetable Soup,67,Lunch
+Vegetable Stock,12,Breakfast
+Vegetarian Pizza,399,Other
+Veggie Burger,389,Other
+Veggie Delight,229,Other
+Veggie Patty,963,Dinner
+Veggie Pizza,263,Other
+Vermicelli,206,Other
+Walnut Oil,124,Dinner
+Wasabi,184,Other
+Watermelon,80,Breakfast
+Wedding Soup,130,Lunch
+Wendy Baconator,839,Dinner
+Wendy Jr. Bacon Cheeseburger,420,Other
+Wendy Jr. Cheeseburger,290,Lunch
+Wendy Son of Baconator,700,Dinner
+Wheat Bran,125,Other
+Wheat Germ,432,Other
+Wheat Germ Oil,130,Dinner
+Wheat Gluten,10,Breakfast
+Wheat Semolina,601,Dinner
+Wheat Starch,386,Other
+White Pizza,571,Dinner
+Whole Grain Noodles,194,Other
+Whole Grain Spaghetti,197,Other
+Whole Grain Wheat,407,Other
+Wholegrain Oat,300,Other
+Whopper,672,Dinner
+Winter Squash,147,Other
+Yorkshire Pudding,83,Breakfast
+Zinger,517,Dinner
+Zinger Burger,517,Lunch
+Ziti,197,Other
+Zucchini,33,Breakfast

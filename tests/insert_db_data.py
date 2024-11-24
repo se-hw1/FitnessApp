@@ -18,19 +18,38 @@ app = App()
 mongo = app.mongo
 
 
+# def insertfooddata():
+#     """Inserting the food data from CSV file to MongoDB"""
+#     # with open("food_data/calories.csv", "r", encoding="ISO-8859-1") as file:
+#     f = open("food_data/calories.csv", "r", encoding="ISO-8859-1")
+#     l = f.readlines()
+
+#     for i in range(1, len(l)):
+#         l[i] = l[i][1:len(l[i]) - 2]
+
+#     for i in range(1, len(l)):
+#         temp = l[i].split(",")
+#         mongo.db.food.update_one(
+#             {'food': temp[0]}, {'$set': {'calories': temp[1]}}, upsert=True)
 def insertfooddata():
-    """Inserting the food data from CSV file to MongoDB"""
-    # with open("food_data/calories.csv", "r", encoding="ISO-8859-1") as file:
-    f = open("food_data/calories.csv", "r", encoding="ISO-8859-1")
-    l = f.readlines()
+    """Inserting the food data from the updated CSV file to MongoDB"""
+    with open("food_data/calories_categories.csv", "r", encoding="ISO-8859-1") as file:
+        lines = file.readlines()
 
-    for i in range(1, len(l)):
-        l[i] = l[i][1:len(l[i]) - 2]
-
-    for i in range(1, len(l)):
-        temp = l[i].split(",")
+    for i in range(1, len(lines)):
+        line = lines[i].strip()  # Clean up the line
+        temp = line.split(",")  # Split into columns
+        
+        # Debugging parsed data
+        #print(f"Parsed data: {temp}")
+        
+        # Update or insert into MongoDB
         mongo.db.food.update_one(
-            {'food': temp[0]}, {'$set': {'calories': temp[1]}}, upsert=True)
+            {'food': temp[0]},  # Match food
+            {'$set': {'calories': float(temp[1]), 'category': temp[2]}},  # Update or insert
+            upsert=True
+        )
+        #print(f"Updated: food={temp[0]}, calories={temp[1]}, category={temp[2]}")
 
 
 def insertexercisedata():

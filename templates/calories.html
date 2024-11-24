@@ -1,50 +1,33 @@
 {% extends "layout.html" %} 
 {% block content %}
 <style>
-    /* Background for the section */
     .content-section {
-        background-color: #f0f4f8; /* Light gray-blue background */
+        background-color: #f0f4f8;
         padding: 30px;
         border-radius: 15px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         max-width: 600px;
         margin: 30px auto;
     }
-    
-    /* Styling for the legend */
     legend {
         font-size: 1.8em;
-        color: #00bcd4; /* Cyan color for the legend title */
+        color: #00bcd4;
         text-align: center;
         border-bottom: 2px solid #00bcd4;
         padding-bottom: 10px;
     }
-
-    /* Form control labels */
     .form-control-label {
         font-weight: bold;
-        color: #00796b; /* Dark teal for labels */
+        color: #00796b;
     }
-
-    /* Text fields */
     .form-control-lg {
-        background-color: #e0f7fa; /* Light cyan background */
+        background-color: #e0f7fa;
         color: #333;
-        border: 2px solid #00bcd4; /* Border matching the legend */
+        border: 2px solid #00bcd4;
         border-radius: 8px;
     }
-
-    /* Date display */
-    .form-control[name="time"] {
-        font-weight: bold;
-        background-color: #b2ebf2; /* Lighter cyan for date */
-        border: none;
-        color: #00796b; /* Teal color for the date text */
-    }
-
-    /* Submit button */
     .btn-outline-info {
-        background-color: #4caf50; /* Green background */
+        background-color: #4caf50;
         color: white;
         border: none;
         border-radius: 8px;
@@ -54,12 +37,12 @@
         transition: background-color 0.3s ease;
     }
     .btn-outline-info:hover {
-        background-color: #388e3c; /* Darker green on hover */
+        background-color: #388e3c;
     }
 </style>
 
-<div class="content-section d-flex justify-content-center align-items-center">
-  <form method="POST" onSubmit="storeCalories()" name="calorieform">
+<div class="content-section">
+  <form method="POST">
     {{ form.hidden_tag() }}
     <fieldset class="form-group">
       <legend>Today's Calories</legend>
@@ -68,11 +51,15 @@
         <p class="form-control form-control-lg" name="time">{{ time }}</p>
       </div>
       <div class="form-group">
-        {{ form.food.label(class="form-control-label") }} 
-        {{ form.food(class="form-control form-control-lg") }}
+        {{ form.category.label(class="form-control-label") }}
+        {{ form.category(class="form-control form-control-lg", id="category", onchange="updateFoods()") }}
       </div>
       <div class="form-group">
-        {{ form.burnout.label(class="form-control-label") }} 
+        {{ form.food.label(class="form-control-label") }}
+        {{ form.food(class="form-control form-control-lg", id="food") }}
+      </div>
+      <div class="form-group">
+        {{ form.burnout.label(class="form-control-label") }}
         {{ form.burnout(class="form-control form-control-lg") }}
       </div>
     </fieldset>
@@ -81,4 +68,35 @@
     </div>
   </form>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      // Retain the selected category if present
+      const categoryField = document.getElementById("category");
+      const selectedCategory = "{{ request.args.get('category', '') }}";
+      if (selectedCategory) {
+          categoryField.value = selectedCategory;
+      }
+
+      // Retain the selected food if the page reloads
+      const foodField = document.getElementById("food");
+      const selectedFood = "{{ form.food.data }}";
+      if (selectedFood) {
+          for (let i = 0; i < foodField.options.length; i++) {
+              if (foodField.options[i].value === selectedFood) {
+                  foodField.options[i].selected = true;
+                  break;
+              }
+          }
+      }
+  });
+
+  // Update food dropdown when a category is selected
+  function updateFoods() {
+      const category = document.getElementById("category").value;
+      if (category) {
+          window.location.href = `/calories?category=${category}`;
+      }
+  }
+</script>
 {% endblock content %}

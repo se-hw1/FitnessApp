@@ -414,49 +414,63 @@ The Burnout Team
 @app.route("/calories", methods=['GET', 'POST'])
 def calories():
     """
-    calorie() function displays the Calorieform (calories.html) template
-    route "/calories" will redirect to calories() function.
-    CalorieForm() called and if the form is submitted then various values are fetched and updated into the database entries
-    Input: Email, date, food, burnout
-    Output: Value update in database and redirected to home page
+    Display the CalorieForm and dynamically update food options based on the selected category.
     """
     now = datetime.now().strftime('%Y-%m-%d')
-
     get_session = session.get('email')
+
     if get_session is not None:
         form = CalorieForm()
+
+        # Handle dynamic food dropdown
+        selected_category = request.args.get('category')
+
+        if selected_category:
+            # Fetch all foods belonging to the selected category
+            foods = mongo.db.food.find({'category': selected_category})
+            form.food.choices = [(f"{food['food']} ({food['calories']})", f"{food['food']} ({food['calories']})")
+                                 for food in foods]
+        else:
+            form.food.choices = [('', 'Select a Food')]
+
         if form.validate_on_submit():
             if request.method == 'POST':
                 email = session.get('email')
-                food = form.food.data
-                try:
-                    cals = int(food.split(" ")[-1][1:-1])
-                except (ValueError, IndexError):
-                    flash('Invalid food input format. Please try again.', 'danger')
-                    return redirect(url_for('calories'))
-                burn = form.burnout.data
+                food = request.form.get('food')
+                burnout = request.form.get('burnout')
 
-                temp = mongo.db.calories.find_one(
-                    {'email': email, 'date': now})
-                if temp:
-                    mongo.db.calories.update_one({'email': email, 'date': now}, {
-                        '$set': {
-                            'calories': temp['calories'] + cals,
-                            'burnout': temp['burnout'] + int(burn)
-                        }
-                    })
+                # Extract calories from the food string as a float
+                cals = float(food.split("(")[-1][:-1])
+
+                # Check if an entry for the same day exists
+                existing_entry = mongo.db.calories.find_one(
+                    {'email': email, 'date': now}
+                )
+                if existing_entry:
+                    # Update the existing entry
+                    mongo.db.calories.update_one(
+                        {'email': email, 'date': now},
+                        {'$set': {
+                            'calories': existing_entry['calories'] + cals,
+                            'burnout': existing_entry['burnout'] + int(burnout)
+                        }}
+                    )
                 else:
-                    mongo.db.calories.insert_one({
-                        'date': now,
-                        'email': email,
-                        'calories': cals,
-                        'burnout': int(burn)
-                    })
-                flash('Successfully updated the data', 'success')
+                    # Create a new entry
+                    mongo.db.calories.insert_one(
+                        {'date': now, 'email': email, 'calories': cals, 'burnout': int(burnout)}
+                    )
+                flash('Successfully updated the data!', 'success')
                 return redirect(url_for('calories'))
+
+        return render_template(
+            'calories.html',
+            form=form,
+            time=now,
+            
+        )
     else:
         return redirect(url_for('home'))
-    return render_template('calories.html', form=form, time=now)
 
 
 @app.route("/display_profile", methods=['GET', 'POST'])
